@@ -1,0 +1,285 @@
+User-agent: Googlebot-Image
+Disallow: /images/1.jpg 
+
+User-agent: Googlebot-Image
+Disallow: /images/2.png 
+
+User-agent: Googlebot-Image
+Disallow: /images/3.png 
+User-agent: Googlebot-Image
+Disallow: /images/9.jpg
+
+
+User-agent: Googlebot-Image
+Disallow: /images/3.png 
+
+
+User-agent: Googlebot-Image
+Disallow: /images/1.jpg
+
+User-agent: Googlebot-Image
+Disallow: /images/10.jpg
+
+User-agent: Googlebot-Image
+Disallow: /images/10.png	
+
+User-agent: Googlebot-Image
+Disallow: /images/10_1.png	
+
+User-agent: Googlebot-Image
+Disallow: /images/10_2.png
+
+User-agent: Googlebot-Image
+Disallow: /images/10_22png
+
+User-agent: Googlebot-Image
+Disallow: /images/10_3.png
+
+User-agent: Googlebot-Image
+Disallow: /images/10.33.png
+
+
+User-agent: Googlebot-Image
+Disallow: /images/10_4.png	
+User-agent: Googlebot-Image
+Disallow: /images/10_44.png	
+
+User-agent: Googlebot-Image
+Disallow: /images/11.jpg	 
+
+User-agent: Googlebot-Image
+Disallow: /images/11.png	
+
+
+User-agent: Googlebot-Image
+Disallow: /images/11_1.png		
+
+User-agent: Googlebot-Image
+Disallow: /images/12.jpg		
+
+User-agent: Googlebot-Image
+Disallow: /images/12_2.png	 
+
+User-agent: Googlebot-Image
+Disallow: /images/13.jpg		
+
+User-agent: Googlebot-Image
+Disallow: /images/133.jpg	 	
+
+User-agent: Googlebot-Image
+Disallow: /images/13_1.jpg	 	
+
+User-agent: Googlebot-Image
+Disallow: /images/14.jpg	 		
+
+User-agent: Googlebot-Image
+Disallow: /images/14.png			
+
+User-agent: Googlebot-Image
+Disallow: /images/14_1.png	 	
+
+User-agent: Googlebot-Image
+Disallow: /images/15.jpg	 	
+
+User-agent: Googlebot-Image
+Disallow: /images/15.png
+
+User-agent: Googlebot-Image
+Disallow: /images/15_1.png		
+
+ 
+User-agent: Googlebot-Image
+Disallow: /images/16.png		
+
+User-agent: Googlebot-Image
+Disallow: /images/17.jpg	
+
+User-agent: Googlebot-Image
+Disallow: /images/18.jpg		
+
+User-agent: Googlebot-Image
+Disallow: /images/19.jpg		
+
+User-agent: Googlebot-Image
+Disallow: /images/2.png		 
+
+User-agent: Googlebot-Image
+Disallow: /images/20.jpg		 
+
+User-agent: Googlebot-Image
+Disallow: /images/21.jpg	  
+
+User-agent: Googlebot-Image
+Disallow: /images/21_1.png	 
+
+User-agent: Googlebot-Image
+Disallow: /images/22.jpg
+
+User-agent: Googlebot-Image
+Disallow: /images/23.jpg		 
+
+User-agent: Googlebot-Image
+Disallow: /images/24.jpg 
+
+
+User-agent: Googlebot-Image
+Disallow: /images/25.jpg	 
+
+
+User-agent: Googlebot-Image
+Disallow: /images/26.jpg	
+
+
+User-agent: Googlebot-Image
+Disallow: /images/27.jpg	 
+
+User-agent: Googlebot-Image
+Disallow: /images/27.png 
+
+User-agent: Googlebot-Image
+Disallow: /images/28.png	 
+
+User-agent: Googlebot-Image
+Disallow: /images/29.png		 
+
+User-agent: Googlebot-Image
+Disallow: /images/3.jpg		 
+
+	 User-agent: Googlebot-Image
+Disallow: /images/3.png		
+
+User-agent: Googlebot-Image
+Disallow: /images/30.png			
+
+User-agent: Googlebot-Image
+Disallow: /images/30_1.png			
+
+User-agent: Googlebot-Image
+Disallow: /images/30_2.png		
+
+User-agent: Googlebot-Image
+Disallow: /images/30_3.png	
+
+User-agent: Googlebot-Image
+Disallow: /images/30_2.png		
+
+User-agent: Googlebot-Image
+Disallow: /images/31.jpg		
+
+User-agent: Googlebot-Image
+Disallow: /images/32.jpg			
+
+User-agent: Googlebot-Image
+Disallow: /images/33.jpg		
+
+	 User-agent: Googlebot-Image
+Disallow: /images/34.jpg		
+
+ 
+User-agent: Googlebot-Image
+Disallow: /images/35.jpg		
+
+User-agent: Googlebot-Image
+Disallow: /images/36.jpg			
+
+
+User-agent: Googlebot-Image
+Disallow: /images/37.jpg			
+User-agent: Googlebot-Image
+Disallow: /images/38.jpg		
+User-agent: Googlebot-Image
+Disallow: /images/39.jpg		
+
+User-agent: Googlebot-Image
+Disallow: /images/4.jpg	 	
+
+User-agent: Googlebot-Image
+Disallow: /images/4.png			
+
+User-agent: Googlebot-Image
+Disallow: /images/40.jpg	
+
+User-agent: Googlebot-Image
+Disallow: /images/41.jpg		
+
+User-agent: Googlebot-Image
+Disallow: /images/42.jpg			
+User-agent: Googlebot-Image
+Disallow: /images/43.jpg		
+
+User-agent: Googlebot-Image
+Disallow: /images/44.jpg	
+
+User-agent: Googlebot-Image
+Disallow: /images/45.jpg	
+
+User-agent: Googlebot-Image
+Disallow: /images/46.jpg		
+
+User-agent: Googlebot-Image
+Disallow: /images/47.jpg	
+
+User-agent: Googlebot-Image
+Disallow: /images/48.jpg		
+
+User-agent: Googlebot-Image
+Disallow: /images/49.jpg		
+
+User-agent: Googlebot-Image
+Disallow: /images/47.jpg	
+
+User-agent: Googlebot-Image
+Disallow: /images/5.jpg	
+
+User-agent: Googlebot-Image
+Disallow: /images/5.png		
+
+User-agent: Googlebot-Image
+Disallow: /images/50.jpg		
+
+User-agent: Googlebot-Image
+Disallow: /images/51.jpg	
+User-agent: Googlebot-Image
+Disallow: /images/52.jpg
+
+User-agent: Googlebot-Image
+Disallow: /images/53.jpg
+
+User-agent: Googlebot-Image
+Disallow: /images/6.jpg
+
+User-agent: Googlebot-Image
+Disallow: /images/6.png	
+
+User-agent: Googlebot-Image
+Disallow: /images/7.jpg
+User-agent: Googlebot-Image
+Disallow: /images/8.jpg	
+
+User-agent: Googlebot-Image
+Disallow: /images/7.png
+
+User-agent: Googlebot-Image
+Disallow: /images/8.png
+
+User-agent: Googlebot-Image
+Disallow: /images/9.jpg	
+User-agent: Googlebot-Image
+Disallow: /images/7.png
+
+User-agent: Googlebot-Image
+Disallow: /images/bella_medicus.png	
+
+User-agent: Googlebot-Image
+Disallow: /images/lunos.png	
+
+User-agent: Googlebot-Image
+Disallow: /images/lunos2.png
+
+
+ 
+	 
+ 
+ 
+ 
+
