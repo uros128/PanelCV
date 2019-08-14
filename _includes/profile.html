@@ -19,7 +19,7 @@ var userAnswer = function() {
 
     var randomSymbol = Math.random();
 
-    if (randomSymbol > 0.5)  {
+    if (randomSymbol < 0.5)  {
         var symbol = "+";
     } else {
         var symbol = "-";
@@ -35,11 +35,11 @@ var userAnswer = function() {
 
 
     if (symbol == "+" && userInput == (numb1 + numb2)) {
-        document.getElementById('feedback').innerHTML = "Congratulations!";
+        document.getElementById('feedback').innerHTML = "kete.uros@gmail.com";
     } else if (symbol == "+" && userInput !== (numb1 + numb2)) {
         document.getElementById('feedback').innerHTML = "Wrong!";
     } else if (symbol == "-" && userInput == (numb1 - numb2)) {
-        document.getElementById('feedback').innerHTML = "Congratulations!";
+        document.getElementById('feedback').innerHTML = "kete.uros@gmail.com";
     } else if (symbol == "-" && userInput !== (numb1 - numb2)) {
         document.getElementById('feedback').innerHTML = "Wrong!";
     } else {
@@ -91,21 +91,11 @@ var userAnswer = function() {
                 <i class="glyphicon glyphicon-envelope"></i>
                 <label>Email</label>
                 <span class="value">
-			
 
-    <
-
-        <center>
-
-        <button onclick="userAnswer()">PLAY NOW!</button>
-
-        <div id="bubble"></div>
-
-        <div id="feedback"></div>
+    
 
 
-        <!-- <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script> -->
-        
+        <button onclick="userAnswer()">get my email</button>
      
 
 			
