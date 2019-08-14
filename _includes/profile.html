@@ -1,6 +1,55 @@
 <!-- profile -->
 
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  
+       <script>
+var number1 = function() {
+    var numb1 = Math.floor(Math.random() * 41) + 10;
+    return numb1;
+}
+
+var number2 = function() {
+    var numb2 = Math.floor(Math.random() * 41) + 10;
+    return numb2;
+}
+
+
+var userAnswer = function() {
+    var numb1 = number1();
+    var numb2 = number2();
+
+    var randomSymbol = Math.random();
+
+    if (randomSymbol > 0.5)  {
+        var symbol = "+";
+    } else {
+        var symbol = "-";
+    }
+
+    // add the math question in the html bubble
+    document.getElementById('bubble').innerHTML = numb1 + symbol + numb2;
+
+    // Prompts the user to give an answer. Change this to HTML.
+    var userInput = prompt(numb1 + symbol + numb2);
+
+    //var userInput = document.getElementById('tw').value;
+
+
+    if (symbol == "+" && userInput == (numb1 + numb2)) {
+        document.getElementById('feedback').innerHTML = "Congratulations!";
+    } else if (symbol == "+" && userInput !== (numb1 + numb2)) {
+        document.getElementById('feedback').innerHTML = "Wrong!";
+    } else if (symbol == "-" && userInput == (numb1 - numb2)) {
+        document.getElementById('feedback').innerHTML = "Congratulations!";
+    } else if (symbol == "-" && userInput !== (numb1 - numb2)) {
+        document.getElementById('feedback').innerHTML = "Wrong!";
+    } else {
+        alert("Something wrong happened. Try again.");
+    }
+
+    return userInput;
+}
+</script> 
+
 
 <div id="profile" class="content_2">
     <!-- .title -->
@@ -43,11 +92,22 @@
                 <label>Email</label>
                 <span class="value">
 			
-			<form action="?" method="POST">
-      <div class="g-recaptcha" data-sitekey="your_site_key"></div>
-      <br/>
-      <input type="submit" value="Submit">
-    </form>
+
+    <
+
+        <center>
+
+        <button onclick="userAnswer()">PLAY NOW!</button>
+
+        <div id="bubble"></div>
+
+        <div id="feedback"></div>
+
+
+        <!-- <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script> -->
+        
+     
+
 			
 </span>
                 <div class="clear"></div>
