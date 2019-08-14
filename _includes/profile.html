@@ -1,21 +1,6 @@
 <!-- profile -->
-<script type="text/javascript">
-    function callValidation(){
 
-        if(document.getElementById('first_name').value == ''){
-            alert('Please enter First Name');
-            return false;
-        }
-
-        ..... validate other form fields here ....
-
-        else if(grecaptcha.getResponse().length == 0){
-            alert('Please click the reCAPTCHA checkbox');
-            return false;
-        }
-        return true;
-    }
-</script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 <div id="profile" class="content_2">
     <!-- .title -->
@@ -56,13 +41,14 @@
             <li>
                 <i class="glyphicon glyphicon-envelope"></i>
                 <label>Email</label>
-                <span class="value"><div class="g-recaptcha" data-sitekey=""></div>
-
-<div id="button">
-
-  <input id="sell_house_submit" type="submit" name="submit" value="Get email!" onclick="return callValidation();">
-
- </div>
+                <span class="value">
+			
+			<form action="?" method="POST">
+      <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+      <br/>
+      <input type="submit" value="Submit">
+    </form>
+			
 </span>
                 <div class="clear"></div>
             </li>
