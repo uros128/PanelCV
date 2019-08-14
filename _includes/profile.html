@@ -2,7 +2,6 @@
 
   
        <script>
-//variable to maintain the current answer
 var curAns = 0;
 
 //Here, I get all the DOMElements I will use 
@@ -70,6 +69,7 @@ var evalAnswer = function() {
         feedback.innerHTML = 'You got it right, congratulations!';
     }
 };
+	       
 </script> 
 
 
@@ -115,12 +115,13 @@ var evalAnswer = function() {
                 <span class="value">
 
     
-<button id="playBtn">Get my email!</button>
+<button id="playBtn">Play Now!</button>
 <div id="bubble"></div>
 <div id="inp" style="display: none;">
-    <input type="text" id="ans"></input> &nbsp; <button id="subBtn">Submit</button>
+    <input type="text" id="ans"></input>&nbsp;<button id="subBtn">Submit</button>
 </div>
 <div id="feedback"></div>
+
 
 			
 </span>
