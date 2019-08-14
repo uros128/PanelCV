@@ -2,52 +2,74 @@
 
   
        <script>
-var number1 = function() {
-    var numb1 = Math.floor(Math.random() * 41) + 10;
-    return numb1;
-}
+//variable to maintain the current answer
+var curAns = 0;
 
-var number2 = function() {
-    var numb2 = Math.floor(Math.random() * 41) + 10;
-    return numb2;
-}
+//Here, I get all the DOMElements I will use 
+var playBtn = document.getElementById('playBtn');
 
+var bubble = document.getElementById('bubble');
 
+var inp = document.getElementById('inp');
+var ans = document.getElementById('ans');
+var subBtn = document.getElementById('subBtn');
+
+var feedback = document.getElementById('feedback');
+
+//I add the event listeners
+//This is equivalent to using 'onclick'
+//in the HTML, and doing it this way is only
+//my personal preference
+playBtn.addEventListener('click', function() {userAnswer();}, false);
+subBtn.addEventListener('click', function() {evalAnswer();}, false);
+
+//Function to get random number
+var number = function() {
+    return Math.floor(Math.random() * 41) + 10;
+};
+
+//This function will be executed when 'Play Now!' is clicked.
 var userAnswer = function() {
-    var numb1 = number1();
-    var numb2 = number2();
+    //Get two separate random numbers in
+    //numb1 and numb2
+    var numb1 = number();
+    var numb2 = number();
+    var symbol = '';
 
     var randomSymbol = Math.random();
 
+    //Determine the operation to be used
+    //and compute the corresponding correct answer for the current
+    //question
     if (randomSymbol > 0.5)  {
-        var symbol = "-";
+        symbol = "+";
+        curAns = numb1+numb2;
     } else {
-        var symbol = "+";
+        symbol = "-";
+        curAns = numb1-numb2;
     }
 
-    // add the math question in the html bubble
-    document.getElementById('bubble').innerHTML = numb1 + symbol + numb2;
+    //Add math question to bubble
+    bubble.innerHTML = 'What is ' + numb1 + ' ' + symbol + ' ' + numb2 + '?';
+    feedback.innerHTML = '';
 
-    // Prompts the user to give an answer. Change this to HTML.
-    var userInput = prompt(numb1 + symbol + numb2);
+    //Make inp div visible
+    inp.style.display = 'block';
+    //Reset input value to ''
+    ans.value = '';
+};
 
-    //var userInput = document.getElementById('tw').value;
-
-
-    if (symbol == "+" && userInput == (numb1 + numb2)) {
-        document.getElementById('feedback').innerHTML = "kete.uros@gmail.com";
-    } else if (symbol == "+" && userInput !== (numb1 + numb2)) {
-        document.getElementById('feedback').innerHTML = "Wrong!";
-    } else if (symbol == "-" && userInput == (numb1 - numb2)) {
-        document.getElementById('feedback').innerHTML = "kete.uros@gmail.com";
-    } else if (symbol == "-" && userInput !== (numb1 - numb2)) {
-        document.getElementById('feedback').innerHTML = "Wrong!";
-    } else {
-        alert("Something wrong happened. Try again.");
+//This function will be executed when 'Submit' is clicked
+var evalAnswer = function() {
+    //Simply compare input value with computed
+    //answer and update feedback 
+    if(parseInt(ans.value) !== curAns) {
+        feedback.innerHTML = 'Wrong answer, try again!';
     }
-
-    return userInput;
-}
+    else {
+        feedback.innerHTML = 'You got it right, congratulations!';
+    }
+};
 </script> 
 
 
@@ -93,10 +115,11 @@ var userAnswer = function() {
                 <span class="value">
 
     
-
-
-        <button onclick="userAnswer()">get my email</button>
-			     <div id="feedback"></div>
+<div id="bubble"></div>
+<div id="inp" style="display: none;">
+    <input type="text" id="ans"></input>&nbsp;<button id="subBtn">Get my email</button>
+</div>
+<div id="feedback"></div>
      
 
 			
