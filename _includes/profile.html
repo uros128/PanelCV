@@ -1,4 +1,22 @@
 <!-- profile -->
+<script type="text/javascript">
+    function callValidation(){
+
+        if(document.getElementById('first_name').value == ''){
+            alert('Please enter First Name');
+            return false;
+        }
+
+        ..... validate other form fields here ....
+
+        else if(grecaptcha.getResponse().length == 0){
+            alert('Please click the reCAPTCHA checkbox');
+            return false;
+        }
+        return true;
+    }
+</script>
+
 <div id="profile" class="content_2">
     <!-- .title -->
 <h1 class="h-bloc">Profile - About Me</h1>
@@ -38,7 +56,14 @@
             <li>
                 <i class="glyphicon glyphicon-envelope"></i>
                 <label>Email</label>
-                <span class="value">kete.uros@gmail.com</span>
+                <span class="value"><div class="g-recaptcha" data-sitekey=""></div>
+
+<div id="button">
+
+  <input id="sell_house_submit" type="submit" name="submit" value="Get email!" onclick="return callValidation();">
+
+ </div>
+</span>
                 <div class="clear"></div>
             </li>
 
